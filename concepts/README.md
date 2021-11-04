@@ -1,6 +1,6 @@
 # Registry Role Vocabulary
 
-This vocabulary contains the roles of people and organisations as they are defined within the ISO's standard _19135, Procedures for item registration_  [1].
+This vocabulary contains the roles of people and organisations as they are defined within the ISO's standard _19135, Procedures for item registration_ [1]. Some small additions have been made, for example the role of _Submitter_.
 
 These roles are used by the [Australian Government Linked Data Working Group](https://www.linked.data.gov.au) to govern the persistent idnetifier that they issue for Linked Data resources. See the WG's [Guidlines document](https://www.linked.data.gov.au/guidelines) for more information.
 

@@ -7,4 +7,4 @@ permalink: /submitting-organization
 
 ## {{ page.title }}
 
-Blah
+Organization authorized by a [Register Owner]({{ site.baseurl }}register-owner) to propose changes to the content of a _register_.

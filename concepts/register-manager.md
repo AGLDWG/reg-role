@@ -7,4 +7,4 @@ permalink: /register-manager
 
 ## {{ page.title }}
 
-Blah
+Organization to which management of a _register_ has been delegated by the [Register Owner]({{ site.baseurl }}register-owner).

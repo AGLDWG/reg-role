@@ -8,4 +8,4 @@ permalink: /control-body
 
 ## {{ page.title }}
 
-Blah
+Group of technical experts that makes decisions regarding the content of a _register_.
