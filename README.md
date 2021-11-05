@@ -20,3 +20,15 @@ Contributor:
 *Data Systems Architect*  
 SURROUND Australia Pty Ltd.  
 <nicholas.car@surroundaustralia.com>  
+
+## Technical details
+
+### Jekyll Commands
+Launch new site
+
+jekyll new . --force
+Serve locally
+
+bundle exec jekyll serve
+
+to fx dependencies: bundle update && bundle install

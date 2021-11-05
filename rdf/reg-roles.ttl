@@ -1,0 +1,117 @@
+@prefix cs: <https://linked.data.gov.au/def/reg-roles> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix reg:  <http://purl.org/linked-data/registry#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix : <https://linked.data.gov.au/def/reg-roles/> .
+
+
+<https://linked.data.gov.au/def/reg-roles> 
+    a owl:Ontology , skos:ConceptScheme;
+    skos:prefLabel "Registry Roles Vocabulary"@en ;
+    skos:definition """This vocabulary is a flat - no hiearchy - listing of the roles for people and organisations defined within the ISO standard 19135 "Geographic information — Procedures for item registration ISO/DIS 19135-1" https://www.iso.org/standard/54721.html."""@en ;
+    owl:versionIRI <https://linked.data.gov.au/def/reg-roles/1.0> ;
+    owl:versionInfo "1.0"@en ;
+    dcterms:contributor <https://orcid.org/0000-0002-8742-7730>;
+    vann:preferredNamespaceUri "https://linked.data.gov.au/def/reg-roles/"^^xsd:string ;
+    dcterms:creator <http://orcid.org/0000-0002-8742-7730> ;
+    vann:preferredNamespacePrefix "reg-roles"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/agldwg> ;
+    rdfs:seeAlso <https://github.com/AGLDWG/reg-roles> ;
+    dcterms:issued "2021-11-03"^^xsd:date ;
+    dcterms:modified "2021-11-05"^^xsd:date ;
+    dcterms:rights "(c) Commonwealth of Australia 2021"@en ;
+    dcterms:created "2021-11-03"^^xsd:date ;
+    dcterms:source "https://www.iso.org/standard/54721.html"^^xsd:anyURI ;
+    skos:hasTopConcept 
+        :control-body ,
+        :register-manager ,
+        :register-owner ,
+        :register-user ,
+        :registry-manager ,
+        :submitter ,
+        :submitting-organization ;
+.
+
+<https://linked.data.gov.au/def/agldwg>
+    a sdo:Organization ;
+    sdo:name "Australian Government Linked Data Working Group" ;
+    sdo:url "http://www.linked.data.gov.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a sdo:Person ;
+    sdo:honorificPrefix "Dr" ;
+    sdo:name "Nicholas J. Car" ;
+    sdo:email "nicholas.car@surroundaustralia.com"^^xsd:anyURI ;
+    sdo:affiliation <https://linked.data.gov.au/org/surround> ;
+.
+
+
+:control-body
+    a skos:Concept ;
+    skos:prefLabel "Control Body"@en;
+    skos:definition "Group of technical experts that makes decisions regarding the content of a _register_."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
+
+:register-manager
+    a skos:Concept ;
+    skos:prefLabel "Register Manager"@en;
+    skos:definition "Organization to which management of a _register_ has been delegated by the **Register Owner**."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
+
+:register-owner
+    a skos:Concept ;
+    skos:prefLabel "Register Owner"@en;
+    skos:definition "Organization that establishes a _register_."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
+
+:register-user
+    a skos:Concept ;
+    skos:prefLabel "Register User"@en;
+    skos:definition "Users of a _register_ without another defined role."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
+
+:registry-manager
+    a skos:Concept ;
+    skos:prefLabel "Registry Manager"@en;
+    skos:definition "A registry manager is a person or an organization responsible for the day-to-day management of a registry"@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
+
+:submitter
+    a skos:Concept ;
+    skos:prefLabel "Submitter"@en;
+    skos:definition "Person requesting changes to a _register_ on behalf of a **Submitting Organization**."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
+
+:submitting-organization
+    a skos:Concept ;
+    skos:prefLabel "Submitting Organization"@en;
+    skos:definition "Organization authorized by a **Register Owner** to propose changes to the content of a _register_."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.

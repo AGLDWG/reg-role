@@ -1,0 +1,14 @@
+@prefix cs: <https://linked.data.gov.au/def/reg-roles> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix : <https://linked.data.gov.au/def/reg-roles/> .
+
+
+:control-body
+    a skos:Concept ;
+    skos:prefLabel "Control Body"@en;
+    skos:definition "Group of technical experts that makes decisions regarding the content of a _register_."@en;
+    skos:inScheme cs: ;
+    rdfs:isDefinedBy cs: ;
+    skos:topConceptOf cs: ;
+.
