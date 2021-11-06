@@ -9,7 +9,7 @@ These roles are used by the [Australian Government Linked Data Working Group](ht
 
 This vocabulary is online at:
 
-* <https://linked.data.gov.au/def/reg-role>
+* <https://linked.data.gov.au/def/reg-roles>
 
 ## License
 This repository is licensed under Creative Commons 4.0 International. See the [LICENSE deed](LICENSE) in this repository for details.
