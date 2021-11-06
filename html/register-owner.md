@@ -7,4 +7,4 @@ permalink: /register-owner
 
 ## {{ page.title }}
 
-Organization that establishes a _register_.
+Organization that establishes a _Register_.

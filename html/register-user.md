@@ -7,4 +7,4 @@ permalink: /register-user
 
 ## {{ page.title }}
 
-Users of a _register_ without another defined role.
+Users of a _Register_ without another defined role.

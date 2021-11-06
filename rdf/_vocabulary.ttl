@@ -1,3 +1,6 @@
+---
+permalink: /.ttl
+---
 @prefix cs: <https://linked.data.gov.au/def/reg-roles> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -56,7 +59,7 @@
 :control-body
     a skos:Concept ;
     skos:prefLabel "Control Body"@en;
-    skos:definition "Group of technical experts that makes decisions regarding the content of a _register_."@en;
+    skos:definition "Group of technical experts that makes decisions regarding the content of a Register."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -65,7 +68,7 @@
 :register-manager
     a skos:Concept ;
     skos:prefLabel "Register Manager"@en;
-    skos:definition "Organization to which management of a _register_ has been delegated by the **Register Owner**."@en;
+    skos:definition "Organization to which management of a Register has been delegated by the **Register Owner**."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -74,7 +77,7 @@
 :register-owner
     a skos:Concept ;
     skos:prefLabel "Register Owner"@en;
-    skos:definition "Organization that establishes a _register_."@en;
+    skos:definition "Organization that establishes a Register."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -83,7 +86,7 @@
 :register-user
     a skos:Concept ;
     skos:prefLabel "Register User"@en;
-    skos:definition "Users of a _register_ without another defined role."@en;
+    skos:definition "Users of a Register without another defined role."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -101,7 +104,7 @@
 :submitter
     a skos:Concept ;
     skos:prefLabel "Submitter"@en;
-    skos:definition "Person requesting changes to a _register_ on behalf of a **Submitting Organization**."@en;
+    skos:definition "Person requesting changes to a Register on behalf of a **Submitting Organization**."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -110,7 +113,7 @@
 :submitting-organization
     a skos:Concept ;
     skos:prefLabel "Submitting Organization"@en;
-    skos:definition "Organization authorized by a **Register Owner** to propose changes to the content of a _register_."@en;
+    skos:definition "Organization authorized by a **Register Owner** to propose changes to the content of a Register."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;

@@ -7,4 +7,4 @@ permalink: /submitter
 
 ## {{ page.title }}
 
-Person requesting changes to a _register_ on behalf of a [Submitting Organization]({{ site.baseurl }}submitting-organization).
+Person requesting changes to a _Register_ on behalf of a [Submitting Organization]({{ site.baseurl }}submitting-organization).

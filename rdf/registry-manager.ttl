@@ -1,3 +1,6 @@
+---
+permalink: /registry-manager.ttl
+---
 @prefix cs: <https://linked.data.gov.au/def/reg-roles> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -6,7 +9,7 @@
 :registry-manager
     a skos:Concept ;
     skos:prefLabel "Registry Manager"@en;
-    skos:definition "A registry manager is a person or an organization responsible for the day-to-day management of a registry"@en;
+    skos:definition "A Registry Manager is a person or an organization responsible for the day-to-day management of a Registry"@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;

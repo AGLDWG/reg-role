@@ -1,3 +1,6 @@
+---
+permalink: /register-user.ttl
+---
 @prefix cs: <https://linked.data.gov.au/def/reg-roles> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -6,7 +9,7 @@
 :register-user
     a skos:Concept ;
     skos:prefLabel "Register User"@en;
-    skos:definition "Users of a _register_ without another defined role."@en;
+    skos:definition "Users of a Register without another defined role."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
