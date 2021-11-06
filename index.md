@@ -17,7 +17,7 @@ Element | Value
 [Modified](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified) | 5th November 2021
 [Issued](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/issued) | 3rd November 2021
 [Description](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/description) | This vocabulary is a flat - no hiearchy - listing of the roles for people and organisations defined within the ISO standard 19135 "Geographic information — Procedures for item registration ISO/DIS 19135-1" <https://www.iso.org/standard/54721.html>.
-Repository | <https://github.com/AGLDWG/reg-role>
+Repository | <https://github.com/AGLDWG/reg-roles>
 
 ### [Concepts](https://www.w3.org/TR/skos-reference/#concepts)
 
