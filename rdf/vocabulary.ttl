@@ -68,7 +68,7 @@ permalink: /.ttl
 :register-manager
     a skos:Concept ;
     skos:prefLabel "Register Manager"@en;
-    skos:definition "Organization to which management of a Register has been delegated by the **Register Owner**."@en;
+    skos:definition "Organization to which management of a Register has been delegated by the Register Owner."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -86,7 +86,7 @@ permalink: /.ttl
 :register-user
     a skos:Concept ;
     skos:prefLabel "Register User"@en;
-    skos:definition "Users of a Register without another defined role."@en;
+    skos:definition "User of a Register without another defined role."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -104,7 +104,7 @@ permalink: /.ttl
 :submitter
     a skos:Concept ;
     skos:prefLabel "Submitter"@en;
-    skos:definition "Person requesting changes to a Register on behalf of a **Submitting Organization**."@en;
+    skos:definition "Person requesting changes to a Register on behalf of a Submitting Organization."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;
@@ -113,7 +113,7 @@ permalink: /.ttl
 :submitting-organization
     a skos:Concept ;
     skos:prefLabel "Submitting Organization"@en;
-    skos:definition "Organization authorized by a **Register Owner** to propose changes to the content of a Register."@en;
+    skos:definition "Organization authorized by a Register Owner to propose changes to the content of a Register."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;

@@ -9,7 +9,7 @@ permalink: /register-user.ttl
 :register-user
     a skos:Concept ;
     skos:prefLabel "Register User"@en;
-    skos:definition "Users of a Register without another defined role."@en;
+    skos:definition "User of a Register without another defined role."@en;
     skos:inScheme cs: ;
     rdfs:isDefinedBy cs: ;
     skos:topConceptOf cs: ;

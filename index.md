@@ -7,6 +7,8 @@ permalink: /
 
 ## Registry Roles 
 
+`https://linked.data.gov.au/def/reg-roles`
+
 {: .concept_scheme .alternating}  
 Element | Value
 --- | ---

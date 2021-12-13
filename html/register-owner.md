@@ -7,4 +7,6 @@ permalink: /register-owner
 
 ## {{ page.title }}
 
+`https://linked.data.gov.au/def/reg-roles/register-owner`
+
 Organization that establishes a _Register_.

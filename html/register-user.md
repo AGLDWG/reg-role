@@ -7,4 +7,6 @@ permalink: /register-user
 
 ## {{ page.title }}
 
-Users of a _Register_ without another defined role.
+`https://linked.data.gov.au/def/reg-roles/register-user`
+
+User of a _Register_ without another defined role.

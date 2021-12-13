@@ -31,4 +31,4 @@ Serve locally
 
 bundle exec jekyll serve
 
-to fx dependencies: bundle update && bundle install
+to fix dependencies: bundle update && bundle install
